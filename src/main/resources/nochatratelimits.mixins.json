@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "net.cuddlebat.nochatratelimits.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ServerPlayNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "nochatratelimits",
+  "version": "${version}",
+
+  "name": "No chat ratelimits",
+  "description": "Removes vanilla's 10 messages / 10s ratelimit, letting plugins handle spam instead.",
+  "authors": [
+    "des-cuddlebat"
+  ],
+  "contact": {
+    "homepage": "https://cuddlebat.net/",
+    "sources": "https://github.com/des-cuddlebat/no-chat-ratelimits"
+  },
+
+  "license": "MIT",
+  "icon": "assets/nochatratelimits/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "nochatratelimits.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
